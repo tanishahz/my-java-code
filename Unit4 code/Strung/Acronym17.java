@@ -1,8 +1,14 @@
 
+import java.util.*;
+
 public class Acronym17 {
 
     public static void main(String[] args) {
-        String sentence = "Central Bureau of Investigation";
+        Scanner st = new Scanner(System.in);
+
+        String sentence;
+        System.out.println("Enter the Statement : ");
+        sentence = st.nextLine();
 
         String[] words = sentence.split(" ");
         StringBuilder acronym = new StringBuilder();

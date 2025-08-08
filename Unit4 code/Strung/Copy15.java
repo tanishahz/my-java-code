@@ -1,9 +1,13 @@
 
+import java.util.*;
+
 public class Copy15 {
 
     public static void main(String[] args) {
-        String input = "ComputerScience";
-
+        Scanner st = new Scanner(System.in);
+        String input;
+        System.out.print("Enter the Statement : ");
+        input = st.nextLine();
         char[] charArray = new char[6];
 
         input.getChars(0, 6, charArray, 0);
